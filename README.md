@@ -1,6 +1,7 @@
 # Trabalho 1: Processamento de Texto
 
 O objetivo desta tarefa é desenvolver um programa para ler e processar arquivos ASCII para encontrar as palavras mais usadas na língua portuguesa. Para isso iremos utilizar como base livros em língua portuguesa disponíveis em:  [Projeto Guteberg](https://www.gutenberg.org/browse/languages/pt) 
+
 Podem escolher 10 livros de forma aleatória.
 
 ## Projeto
