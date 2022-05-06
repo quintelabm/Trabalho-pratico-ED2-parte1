@@ -10,13 +10,14 @@ Para encontrar as 50 palavras mais usadas no documento, seu programa deve copiar
 
 Existem várias questões-chave de design que devem ser abordadas neste trabalho: 
 1. como ler o arquivo de texto e extrair as palavras individuais;
-2. como armazenar e acessar pares de "palavras / contagem" na tabela de hash;
-3. como extrair e classificar pares de "palavras/contagem" para identificar as 50 palavras mais usadas no documento.
+2. como armazenar e acessar pares de "(palavras,contagem)" na tabela de hash;
+3. como extrair e classificar pares de "(palavras/contagem)" para identificar as 50 palavras mais usadas no documento.
 
-Para esta tarefa, os alunos devem usar um encadeamento separado para implementar a tabela hash. Essa abordagem usa listas encadeadas para lidar com colisões na hash, portanto, os alunos devem implementar "list.cpp" no diretório src. Os alunos também são incentivados a consultar o programa "word_hash.cpp" para obter exemplos de E/S de arquivo. 
-A tabela de hash de amostra em "hash.cpp" ilustra a API típica para uma tabela de hash e mostra como a sondagem linear pode ser usada para lidar com colisões.
+Para esta tarefa, os alunos devem usar um encadeamento separado para implementar a tabela hash. 
+Essa abordagem usa listas encadeadas para lidar com colisões na hash, portanto, os alunos devem 
+implementar "list.cpp" no diretório src. 
 
-Experimentos que devem ser realizados
+## Experimentos que devem ser realizados
 
 1 - Criar casos de testes unitários para testar as funções de hash. 
 O grupo pode adotar um dos sistemas de testes unitários: CTest, Googletest e Catch 2.
