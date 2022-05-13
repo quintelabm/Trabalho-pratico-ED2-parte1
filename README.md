@@ -71,11 +71,14 @@ você desenvolveu, avaliou e melhorou seu código.
 
 
 ## Critérios da avaliação:
- - *Funcionalidade (50%)*: Será observado se todas as funcionalidades estão gerando os resultados esperado de acordo com a especificação dada acima; se a especificação for ambígua e você tiver que fazer uma determinada escolha, defenda essa escolha em seu arquivo REPORT.
- - *Desempenho (15%)*: refere-se a quão rápido e/ou utilização eficiente de memória seu programa pode produzir os resultados requeridos em comparação com outras submissões.
- - *Testes (10%)*    : refere-se adequação dos testes de unidade para todas as classes de estrutura de dados desenvolvidos nesta tarefa.
- - *Estilo  (15%)*   : refere-se ao estilo de programação C/C++, incluindo coisas como identação consistente, nomes de identificadores apropriados, comentários úteis, etc.
- - *Organização (10%)*: refere-se a estruturação do projeto, diretórios, projeto cmake, etc
+ - (F) *Funcionalidade (50%)*: Será observado se todas as funcionalidades estão gerando os resultados esperado de acordo com a especificação dada acima; se a especificação for ambígua e você tiver que fazer uma determinada escolha, defenda essa escolha em seu arquivo REPORT.
+ - (D) *Desempenho (15%)*: refere-se a quão rápido e/ou utilização eficiente de memória seu programa pode produzir os resultados requeridos em comparação com outras submissões.
+ - (T) *Testes (10%)*    : refere-se adequação dos testes de unidade para todas as classes de estrutura de dados desenvolvidos nesta tarefa.
+ - (E) *Estilo  (15%)*   : refere-se ao estilo de programação C/C++, incluindo coisas como identação consistente, nomes de identificadores apropriados, comentários úteis, etc.
+ - (O) *Organização (10%)*: refere-se a estruturação do projeto, diretórios, projeto cmake, etc
 
+Nota final calculada será dada então por: 
+ - NF = (F + D + T + E + O)* I.
 
+Onde I é o fator de contribuição individual. 
 
