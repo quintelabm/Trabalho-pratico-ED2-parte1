@@ -18,6 +18,19 @@ Para esta tarefa, os alunos devem usar um encadeamento separado para implementar
 Essa abordagem usa listas encadeadas para lidar com colisões na hash, portanto, os alunos devem 
 implementar "list.cpp" no diretório src. 
 
+### Tipo Abstrado de Dados: Tabela Hash
+
+O tipo abstrato de dados hash com encadeamento separado deve conter as seguintes rotinas implementadas:
+1. *Construtor*: Deve receber como entrada o tamanho *M* da tabela.
+2. *Insere*    : O parametro de entrada deve ser um registro. 
+3. *Busca*     : Dado a chave de busca, a rotina deve retornar o ponteiro para o registro procurado. A função deve retornar *nullptr* caso a busca seja invalida.
+4. *Remove*    : Dada uma chave de busca, deve-se remover o registro da tabela hash.
+5. ImprimeInfo : Imprime o número de colisões ocorridas nas inserções de dados na tabela ao usar uma determinada função hash.
+6. *Destrutor* : desaloca toda a memoria ocupada pela tabela hash.
+
+**IMPORTANTE**:
+1. Implemente o TAD que permita a uso de diferentes funções hash. 
+
 ## Experimentos que devem ser realizados
 
 1 - Criar casos de testes unitários para testar as funções de hash. 
@@ -35,3 +48,5 @@ Escreva em um arquivo ascii as 50 palavras mais frequentes no total com suas res
 
 Observações:
 Palavras como artigos (o, a, um…), preposições (de, em, para, …) e pontuações (‘.’ , ‘ !’, ‘?’, ...) devem ser ignoradas nas contagens. 
+
+## Avaliação:
