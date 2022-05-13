@@ -60,11 +60,20 @@ O grupo deverá processar um conjunto de 10 livros. O programa deve ser capaz de
 **Observações**:
 Palavras como artigos (o, a, um…), preposições (de, em, para, …) e pontuações (‘.’ , ‘ !’, ‘?’, ...) devem ser ignoradas nas contagens. 
 
+## Entrega
+
+O grupo deve usar seu arquivo REPORT.md para explicar a abordagem para resolver essa tarefa:  como foi a distribuição das tarefas entre os membros, 
+escolhas de algorimos, o que funcionou ou o que não funcionou, mudanças de planos, etc. Tente resumir todas as diferentes maneiras pelas quais 
+você desenvolveu, avaliou e melhorou seu código. 
+
+Mantenha o repositório do grupo sempre atualizado. Será avaliado no código que estiver no branch principal. 
+
 ## Critérios da avaliação:
- - Funcionalidade (50%): Será observado se todas as funcionalidades estão gerando os resultados esperados.
- - Desempenho  (15%):
- - Organização    :  
- - Documentação   :
- - Trabalho Equipe: A divisão de tarefas de implementação será monitorado pelas atualizações
+ - *Funcionalidade (50%)*: Será observado se todas as funcionalidades estão gerando os resultados esperado de acordo com a especificação dada acima; se a especificação for ambígua e você tiver que fazer uma determinada escolha, defenda essa escolha em seu arquivo REPORT.
+ - *Desempenho (15%)*: refere-se a quão rápido e/ou utilização eficiente de memória seu programa pode produzir os resultados requeridos em comparação com outras submissões.
+ - *Testes (10%)*    : refere-se adequação dos testes de unidade para todas as classes de estrutura de dados desenvolvidos nesta tarefa.
+ - *Estilo  (15%)*   : refere-se ao estilo de programação C/C++, incluindo coisas como identação consistente, nomes de identificadores apropriados, comentários úteis, etc.
+ - *Organização (10%)*: refere-se a estruturação do projeto, diretórios, projeto cmake, etc
+
 
 
