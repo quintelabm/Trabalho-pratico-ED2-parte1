@@ -29,24 +29,35 @@ O tipo abstrato de dados hash com encadeamento separado deve conter as seguintes
 6. *Destrutor* : desaloca toda a memoria ocupada pela tabela hash.
 
 **IMPORTANTE**:
-1. Implemente o TAD que permita a uso de diferentes funções hash. 
+1. Implemente o TAD que permita o uso de diferentes funções hash. 
 
 ## Experimentos que devem ser realizados
+ 
+### Caso 1: Testes Unitários
 
-1 - Criar casos de testes unitários para testar as funções de hash. 
+Criar casos de testes unitários para testar as rotinas da tabela hash. 
 O grupo pode adotar um dos sistemas de testes unitários: CTest, Googletest e Catch 2.
 
-2. Analisar o desempenho dos métodos de ordenação
-Ao identificar as 50 palavras mais usadas de um livro, o grupo deve analisar o desempenho de pelo menos 3 métodos de ordenação. Sendo obrigatoriamente um deles o quicksort, o segundo pode ser qualquer outro método de ordenação visto em aula e o terceiro método de livre escolha do grupo, desde que não tenha sido visto em aula.  As métricas de desempenho são: número de comparações, número de movimentação e tempo de processamento.
-Usar o método mais eficiente obtido nas pŕoximas etapas.
+### Caso 2: Funções Hash
 
-2 - Identificar as 50 palavras mais usadas de cada livro
-Para cada livro, faça o processamento e escreva em um arquivo ascii as 50 palavras mais frequentes com suas respectivas contagens.
+O grupo deve fazer um estudo comparativo entre diferentes funções hash. Para tanto, deve-se escolher um 
+texto disponível no Projeto Guteberg e indexar as palavras em tabelas hashes com funções distintas. O programa deve reportar o
+número de palavras e o total de colições para cada uma das funções testadas.
 
-3 - Identificar as 50 palavras mais usadas no total
-Escreva em um arquivo ascii as 50 palavras mais frequentes no total com suas respectivas contagens ordenadas em ordem decrescente. Considere para essa atividade que 10 livros devem ser processados.
+### Caso 3: Analisar o desempenho dos métodos de ordenação
 
-Observações:
+Ao identificar as 50 palavras mais usadas de um livro, o grupo deve analisar o desempenho de pelo menos 3 métodos de ordenação. 
+Sendo **obrigatoriamente** um deles o quicksort, o segundo pode ser qualquer outro método de ordenação visto em aula e o terceiro método de livre escolha do grupo, desde que não tenha sido visto em aula.  As métricas de desempenho são: número de comparações, número de movimentação e tempo de processamento.
+Usar o método mais eficiente obtido nos pŕoximos casos.
+
+### Caso 4: Identificar as 50 palavras mais usadas
+
+O grupo deverá processar um conjunto de N livros. O programa deve ser capaz de:
+  - Identificar as 50 palavras mais usadas de cada livro Para cada livro, faça o processamento e escreva em um arquivo ascii as 50 palavras mais frequentes com suas respectivas contagens.
+
+  - Identificar as 50 palavras mais usadas no total. Escreva em um arquivo ascii as 50 palavras mais frequentes no total com suas respectivas contagens ordenadas em ordem decrescente. Considere para essa atividade que 10 livros devem ser processados.
+
+**Observações**:
 Palavras como artigos (o, a, um…), preposições (de, em, para, …) e pontuações (‘.’ , ‘ !’, ‘?’, ...) devem ser ignoradas nas contagens. 
 
 ## Avaliação:
