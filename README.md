@@ -52,7 +52,7 @@ Usar o método mais eficiente obtido nos pŕoximos casos.
 
 ### Caso 4: Identificar as 50 palavras mais usadas
 
-O grupo deverá processar um conjunto de N livros. O programa deve ser capaz de:
+O grupo deverá processar um conjunto de 10 livros. O programa deve ser capaz de:
   - Identificar as 50 palavras mais usadas de cada livro Para cada livro, faça o processamento e escreva em um arquivo ascii as 50 palavras mais frequentes com suas respectivas contagens.
 
   - Identificar as 50 palavras mais usadas no total. Escreva em um arquivo ascii as 50 palavras mais frequentes no total com suas respectivas contagens ordenadas em ordem decrescente. Considere para essa atividade que 10 livros devem ser processados.
@@ -60,4 +60,11 @@ O grupo deverá processar um conjunto de N livros. O programa deve ser capaz de:
 **Observações**:
 Palavras como artigos (o, a, um…), preposições (de, em, para, …) e pontuações (‘.’ , ‘ !’, ‘?’, ...) devem ser ignoradas nas contagens. 
 
-## Avaliação:
+## Critérios da avaliação:
+ - Funcionalidade (50%): Será observado se todas as funcionalidades estão gerando os resultados esperados.
+ - Desempenho  (15%):
+ - Organização    :  
+ - Documentação   :
+ - Trabalho Equipe: A divisão de tarefas de implementação será monitorado pelas atualizações
+
+
