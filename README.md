@@ -62,11 +62,13 @@ Palavras como artigos (o, a, um…), preposições (de, em, para, …) e pontua�
 
 ## Entrega
 
-O grupo deve usar seu arquivo REPORT.md para explicar a abordagem para resolver essa tarefa:  como foi a distribuição das tarefas entre os membros, 
-escolhas de algorimos, o que funcionou ou o que não funcionou, mudanças de planos, etc. Tente resumir todas as diferentes maneiras pelas quais 
+ - O grupo deve usar seu arquivo REPORT.md para explicar a abordagem empregada para solucionar a tarefa: como foi a distribuição das tarefas entre os membros,  escolhas de algorimos, o que funcionou ou o que não funcionou, mudanças de planos, etc. Tente resumir todas as diferentes maneiras pelas quais 
 você desenvolveu, avaliou e melhorou seu código. 
 
-Mantenha o repositório do grupo sempre atualizado. Será avaliado no código que estiver no branch principal. 
+ - Mantenha o repositório do grupo sempre atualizado. O histórico de atualizações e as contribuições individuais será usado para verificar a distribuição de tarefas entre os membros do grupo. 
+
+- Após o encerramento do prazo de entrega, o código que será avaliado será aquele que estiver no branch principal do grupo.
+
 
 ## Critérios da avaliação:
  - *Funcionalidade (50%)*: Será observado se todas as funcionalidades estão gerando os resultados esperado de acordo com a especificação dada acima; se a especificação for ambígua e você tiver que fazer uma determinada escolha, defenda essa escolha em seu arquivo REPORT.
