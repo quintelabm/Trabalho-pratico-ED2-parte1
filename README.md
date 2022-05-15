@@ -2,10 +2,10 @@
 
 O objetivo desta tarefa é desenvolver um programa para ler e processar arquivos ASCII para encontrar as palavras mais usadas na língua portuguesa. Para isso iremos utilizar como base livros em língua portuguesa disponíveis em:  [Projeto Guteberg](https://www.gutenberg.org/browse/languages/pt) 
 
-Podem escolher 10 livros de forma aleatória.
+Escolham 10 livros de forma aleatória.
 
 ## Projeto
-Há muitas maneiras de atingir esse objetivo, mas vamos usar uma tabela hash para contar o número de vezes que cada palavra única ocorre à medida que digitalizamos o arquivo ascii. Deve-se iniciar com uma tabela de hash vazia. Em seguida, você lerá uma palavra do arquivo ascii e inserirá essa palavra na tabela de hash. Se a palavra já for encontrada na tabela de hash, você incrementa o contador de palavras correspondente em vez de adicionar uma entrada duplicada. Se a palavra não for encontrada na tabela  hash, insira uma nova entrada na tabela de hash com um contador de palavras definido como 1 (um). Quando você terminar de processar o documento, a tabela de hash conterá N palavras exclusivas e seus contadores de palavras associados.
+Há muitas maneiras de atingir esse objetivo, mas vamos usar uma tabela hash para contar o número de vezes que cada palavra única ocorre à medida que digitalizamos o arquivo ascii. Deve-se iniciar com uma tabela de hash vazia. Em seguida, você lerá uma palavra do arquivo ascii e inserirá essa palavra na tabela de hash. Se a palavra já for encontrada na tabela de hash, você incrementa o contador de palavras correspondente em vez de adicionar uma entrada duplicada. Se a palavra não for encontrada na tabela hash, insira uma nova entrada na tabela de hash com um contador de palavras definido como 1 (um). Quando você terminar de processar o documento, a tabela de hash conterá N palavras exclusivas e seus contadores de palavras associados.
 
 Para encontrar as 50 palavras mais usadas no documento, seu programa deve copiar o conteúdo da tabela de hash em um vetor "words" e ordená-lo em ordem decrescente.
 
@@ -41,8 +41,7 @@ O grupo pode adotar um dos sistemas de testes unitários: CTest, Googletest e Ca
 ### Caso 2: Funções Hash
 
 O grupo deve fazer um estudo comparativo entre diferentes funções hash. Para tanto, deve-se escolher um 
-texto disponível no Projeto Guteberg e indexar as palavras em tabelas hashes com funções distintas. O programa deve reportar o
-número de palavras e o total de colições para cada uma das funções testadas.
+texto disponível no Projeto Guteberg e indexar as palavras em tabelas hashes com funções distintas. O programa deve reportar o número de palavras e o total de colições para cada uma das funções testadas.
 
 ### Caso 3: Analisar o desempenho dos métodos de ordenação
 
@@ -53,17 +52,16 @@ Usar o método mais eficiente obtido nos pŕoximos casos.
 ### Caso 4: Identificar as 50 palavras mais usadas
 
 O grupo deverá processar um conjunto de 10 livros. O programa deve ser capaz de:
-  - Identificar as 50 palavras mais usadas de cada livro Para cada livro, faça o processamento e escreva em um arquivo ascii as 50 palavras mais frequentes com suas respectivas contagens.
+  - Identificar as 50 palavras mais usadas de cada livro. Para cada livro, faça o processamento e escreva em um arquivo ascii as 50 palavras mais frequentes com suas respectivas contagens.
 
-  - Identificar as 50 palavras mais usadas no total. Escreva em um arquivo ascii as 50 palavras mais frequentes no total com suas respectivas contagens ordenadas em ordem decrescente. Considere para essa atividade que 10 livros devem ser processados.
+  - Identificar as 50 palavras mais usadas no total. Escreva em um arquivo ascii as 50 palavras mais frequentes no total com suas respectivas contagens ordenadas em ordem decrescente. Considere para essa atividade que 10 livros distintos devem ser processados.
 
 **Observações**:
-Palavras como artigos (o, a, um…), preposições (de, em, para, …) e pontuações (‘.’ , ‘ !’, ‘?’, ...) devem ser ignoradas nas contagens. 
+Palavras como artigos (o, a, um …), preposições (de, em, para, …) e pontuações (‘.’ , ‘ !’, ‘?’, ...) devem ser ignoradas nas contagens. 
 
 ## Entrega
 
- - O grupo deve usar seu arquivo REPORT.md para explicar a abordagem empregada para solucionar a tarefa: como foi a distribuição das tarefas entre os membros,  escolhas de algorimos, o que funcionou ou o que não funcionou, mudanças de planos, etc. Tente resumir todas as diferentes maneiras pelas quais 
-você desenvolveu, avaliou e melhorou seu código. 
+ - O grupo deve usar seu arquivo REPORT.md para explicar a abordagem empregada para solucionar a tarefa: como foi a distribuição das tarefas entre os membros,  escolhas de algorimos, o que funcionou ou o que não funcionou, mudanças de planos, etc. Tente resumir todas as diferentes maneiras pelas quais você desenvolveu, avaliou e melhorou seu código. 
 
  - Mantenha o repositório do grupo sempre atualizado. O histórico de atualizações e as contribuições individuais será usado para verificar a distribuição de tarefas entre os membros do grupo. 
 
@@ -71,7 +69,7 @@ você desenvolveu, avaliou e melhorou seu código.
 
 
 ## Critérios da avaliação:
- - (F) *Funcionalidade (50%)*: Será observado se todas as funcionalidades estão gerando os resultados esperado de acordo com a especificação dada acima; se a especificação for ambígua e você tiver que fazer uma determinada escolha, defenda essa escolha em seu arquivo REPORT.
+ - (F) *Funcionalidade (50%)*: Será observado se todas as funcionalidades estão gerando os resultados esperados de acordo com a especificação dada acima; se a especificação for ambígua e você tiver que fazer uma determinada escolha, defenda essa escolha em seu arquivo REPORT.
  - (D) *Desempenho (15%)*: refere-se a quão rápido e/ou utilização eficiente de memória seu programa pode produzir os resultados requeridos em comparação com outras submissões.
  - (T) *Testes (10%)*    : refere-se adequação dos testes de unidade para todas as classes de estrutura de dados desenvolvidos nesta tarefa.
  - (E) *Estilo  (15%)*   : refere-se ao estilo de programação C/C++, incluindo coisas como identação consistente, nomes de identificadores apropriados, comentários úteis, etc.
