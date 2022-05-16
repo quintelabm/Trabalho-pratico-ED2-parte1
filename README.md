@@ -56,6 +56,8 @@ O grupo deverá processar um conjunto de 10 livros. O programa deve ser capaz de
 
   - Identificar as 50 palavras mais usadas no total. Escreva em um arquivo ascii as 50 palavras mais frequentes no total com suas respectivas contagens ordenadas em ordem decrescente. Considere para essa atividade que 10 livros distintos devem ser processados.
 
+Para padronizar a leitura dos dados, considere que os arquivos com os textos de entrada estejam dentro da pasta *input* do projeto raiz.  
+
 **Observações**:
 Palavras como artigos (o, a, um …), preposições (de, em, para, …) e pontuações (‘.’ , ‘ !’, ‘?’, ...) devem ser ignoradas nas contagens. 
 
@@ -78,5 +80,5 @@ Palavras como artigos (o, a, um …), preposições (de, em, para, …) e pontua
 Nota final calculada será dada então por: 
  - NF = (F + D + T + E + O)* I.
 
-Onde I é o fator de contribuição individual. 
+Onde I é o fator de contribuição individual que vai variar entre 0 e 1. 
 
