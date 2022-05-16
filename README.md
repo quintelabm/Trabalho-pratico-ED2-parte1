@@ -2,9 +2,9 @@
 
 O objetivo desta tarefa é desenvolver um programa para ler e processar arquivos ASCII para encontrar as palavras mais usadas na língua portuguesa. Para isso iremos utilizar como base livros em língua portuguesa disponíveis em:  [Projeto Guteberg](https://www.gutenberg.org/browse/languages/pt) 
 
-Escolham 10 livros de forma aleatória.
+O Projeto Gutenberg (AO 1945: Projecto Gutenberg) (PG) é um esforço voluntário para digitalizar, arquivar e distribuir obras culturais através da digitalização de livros. Fundado em 1971, é a mais antiga biblioteca digital. A maioria dos itens no seu acervo são textos completos de livros em domínio público. O projeto tenta torná-los tão livres quanto possível, em formatos duradouros e abertos, que possam ser usados em praticamente quaisquer computadores [trecho obtido da wikipedia].
 
-## Projeto
+## Métodos
 Há muitas maneiras de atingir esse objetivo, mas vamos usar uma tabela hash para contar o número de vezes que cada palavra única ocorre à medida que digitalizamos o arquivo ascii. Deve-se iniciar com uma tabela de hash vazia. Em seguida, você lerá uma palavra do arquivo ascii e inserirá essa palavra na tabela de hash. Se a palavra já for encontrada na tabela de hash, você incrementa o contador de palavras correspondente em vez de adicionar uma entrada duplicada. Se a palavra não for encontrada na tabela hash, insira uma nova entrada na tabela de hash com um contador de palavras definido como 1 (um). Quando você terminar de processar o documento, a tabela de hash conterá N palavras exclusivas e seus contadores de palavras associados.
 
 Para encontrar as 50 palavras mais usadas no documento, seu programa deve copiar o conteúdo da tabela de hash em um vetor "words" e ordená-lo em ordem decrescente.
