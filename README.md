@@ -63,12 +63,12 @@ Palavras como artigos (o, a, um …), preposições (de, em, para, …) e pontua
 
 ## Entrega
 
- - O grupo deve usar seu arquivo REPORT.md para explicar a abordagem empregada para solucionar a tarefa: como foi a distribuição das tarefas entre os membros,  escolhas de algorimos, o que funcionou ou o que não funcionou, mudanças de planos, etc. Tente resumir todas as diferentes maneiras pelas quais você desenvolveu, avaliou e melhorou seu código. 
-
- - Mantenha o repositório do grupo sempre atualizado. O histórico de atualizações e as contribuições individuais será usado para verificar a distribuição de tarefas entre os membros do grupo. 
-
+- O grupo deve usar seu arquivo REPORT.md para explicar a abordagem empregada para solucionar a tarefa: como foi a distribuição das tarefas entre os membros,  escolhas de algorimos, o que funcionou ou o que não funcionou, mudanças de planos, etc. Tente resumir todas as diferentes maneiras pelas quais você desenvolveu, avaliou e melhorou seu código. 
+- Mantenha o repositório do grupo sempre atualizado. O histórico de atualizações e as contribuições individuais será usado para verificar a distribuição de tarefas entre os membros do grupo. 
 - Após o encerramento do prazo de entrega, o código que será avaliado será aquele que estiver no branch principal do grupo.
-
+- Assim como o códig-fonte, o projeto cmake para a configuração e compilação do trabalho tem que estar disponível. 
+- **Não é ncessário incluir a pasta build no repositório**.
+ 
 
 ## Critérios da avaliação:
  - (F) *Funcionalidade (50%)*: Será observado se todas as funcionalidades estão gerando os resultados esperados de acordo com a especificação dada acima; se a especificação for ambígua e você tiver que fazer uma determinada escolha, defenda essa escolha em seu arquivo REPORT.
